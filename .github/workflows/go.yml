@@ -8,7 +8,7 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    stratgey:
+    strategy:
       matrix:
         go-version: [1.16, 1.17]
     steps:
